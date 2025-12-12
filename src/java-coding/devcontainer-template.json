@@ -1,0 +1,22 @@
+{
+    "id": "java-coding",
+    "version": "1.0.0",
+    "name": "Java coding with Dev Containers",
+    "description": "A Template to have tools for Java coding in your Dev Containers",
+    "documentationURL": "https://github.com/philippart-s/dev-containers-template-talk/tree/main/src/java-coding",
+    "licenseURL": "https://github.com/philippart-s/dev-containers-template-talk/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Debian version (use bullseye on local arm64/Apple Silicon):",
+            "proposals": [
+                "bullseye",
+                "buster"
+            ],
+            "default": "bullseye"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
