@@ -4,7 +4,6 @@
 
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	 "features": {
-		"ghcr.io/jsburckhardt/devcontainer-features/bat:1": {},
 		"ghcr.io/devcontainers/features/java:1": {
       "installMaven": true,
 			"mavenVersion": "3.9.11",
