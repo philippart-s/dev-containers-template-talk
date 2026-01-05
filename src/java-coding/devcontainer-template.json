@@ -1,6 +1,6 @@
 {
     "id": "java-coding",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "Java coding with Dev Containers",
     "description": "A Template to have tools for Java coding in your Dev Containers",
     "documentationURL": "https://github.com/philippart-s/dev-containers-template-talk/tree/main/src/java-coding",
