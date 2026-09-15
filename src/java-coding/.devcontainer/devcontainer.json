@@ -2,6 +2,11 @@
 	"name": "Default template for Java coding",
 	"image": "mcr.microsoft.com/devcontainers/base:${templateOption:imageVariant}",
 
+	// Executed commands after container creation
+	"postCreateCommand": {
+		"Httpd": "jbang app setup && jbang app install httpd@jbangdev"
+	},
+
 	// 👇 Features to add to the Dev Container. More info: https://containers.dev/implementors/features.
 	 "features": {
 		"ghcr.io/devcontainers/features/java:1": {
