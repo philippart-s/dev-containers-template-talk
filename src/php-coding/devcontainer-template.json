@@ -1,0 +1,22 @@
+{
+    "id": "php-coding",
+    "version": "1.0.0",
+    "name": "PHP coding with Dev Containers",
+    "description": "A Template to have tools for PHP coding in your Dev Containers",
+    "documentationURL": "https://github.com/philippart-s/dev-containers-template-talk/tree/main/src/php-coding",
+    "licenseURL": "https://github.com/philippart-s/dev-containers-template-talk/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Ubuntu or Debian version of the base image:",
+            "proposals": [
+                "noble",
+                "trixie"
+            ],
+            "default": "noble"
+        }
+    },
+    "platforms": [
+        "PHP"
+    ]
+}
